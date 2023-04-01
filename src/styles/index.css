@@ -1,12 +1,32 @@
 
-/* 
+.wrapper{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.element{
+    background-color: rgb(24, 24, 24);
+    height: 8rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    border-radius: 1rem;
+    
+}
 
-    You can write your own styles here...
+.clock{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    width: 5rem;
+    height: 5rem;
+    fill: white;
+}
 
-*/
+.contador{
+    color: white;
+    font-size: 5rem;
+}
